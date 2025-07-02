@@ -5,16 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Skincare</title>
   <link rel="stylesheet" href="styles.css" />
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-32Y9QJ8XWZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-32Y9QJ8XWZ');
-</script>
 </head>
 <body>
 
@@ -31,26 +21,26 @@
       <p>Encuentra todo para tener una piel radiante.</p>
       <button class="contact-btn">📞 7050-2079</button>
     </div>
-    <img src="https://via.placeholder.com/300x300.png?text=Imagen+Redonda" alt="Productos Skincare" />
+    <img src="../static/img/Group 1.svg" alt="Productos Skincare" />
   </section>
 
   <section>
     <h2>MIXSOON</h2>
     <div class="product-grid">
       <div class="product">
-        <img src="https://via.placeholder.com/140x180.png?text=Bean+Essence" alt="Bean Essence" />
+        <img src="../static/img/Frame 162.svg" alt="Bean Essence" />
         <p>BEAN ESSENCE</p>
       </div>
       <div class="product selected">
-        <img src="https://via.placeholder.com/140x180.png?text=Glacier+Water" alt="Glacier Water" />
+        <img src="../static/img/image 2.svg.svg" alt="Glacier Water" />
         <p>GLACIER WATER</p>
       </div>
       <div class="product">
-        <img src="https://via.placeholder.com/140x180.png?text=Bean+Cream" alt="Bean Cream" />
+        <img src="image 6.svg" alt="Bean Cream" />
         <p>BEAN CREAM</p>
       </div>
       <div class="product">
-        <img src="https://via.placeholder.com/140x180.png?text=Contorno+Ojos" alt="Contorno de Ojos" />
+        <img src="image 4.svg" alt="Contorno de Ojos" />
         <p>CONTORNO DE OJOS</p>
       </div>
     </div>
@@ -60,24 +50,42 @@
     <h2>THE ORDINARY</h2>
     <div class="product-grid">
       <div class="product">
-        <img src="https://via.placeholder.com/140x180.png?text=Acido+Hialuronico" alt="Ácido Hialurónico" />
+        <img src="image 7.svg" alt="Ácido Hialurónico" />
         <p>ACIDO HIALURONICO</p>
       </div>
       <div class="product">
-        <img src="https://via.placeholder.com/140x180.png?text=Peeling" alt="Peeling" />
+        <img src="image 8.svg" alt="Peeling" />
         <p>PEELING</p>
       </div>
       <div class="product">
-        <img src="https://via.placeholder.com/140x180.png?text=Niacinamida" alt="Niacinamida" />
+        <img src="image 9.svg" alt="Niacinamida" />
         <p>NIACINAMIDA</p>
       </div>
       <div class="product">
-        <img src="https://via.placeholder.com/140x180.png?text=Acido+Salicilico" alt="Ácido Salicílico" />
+        <img src="image 10.svg" alt="Ácido Salicílico" />
         <p>ACIDO SALICILICO</p>
       </div>
     </div>
   </section>
 
+
+  <section class="form">
+    <h2>Contacto</h2>
+    <form action="#" method="post" novalidate>
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="nombre" required />
+
+      <label for="email">Correo Electrónico</label>
+      <input type="email" id="email" name="email" placeholder="email" required />
+
+      <label for="message">Mensaje</label>
+      <textarea id="message" name="message" placeholder="Escribe tu mensaje aqui" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
 </body>
 </html>
 
+    
